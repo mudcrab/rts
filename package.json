@@ -1,9 +1,10 @@
 {
-  "name": "rts",
+  "name": "@mudcrab/rts",
   "version": "1.0.1",
   "description": "Bootstrap React App",
   "main": "index.js",
   "author": "Jevgeni Sillar <jevgeni@pitfire.io>",
+  "repository": "https://github.com/mudcrab/rts",
   "license": "MIT",
   "private": false,
   "bin": {
@@ -14,5 +15,6 @@
     "got": "^10.5.5",
     "rimraf": "^3.0.2",
     "unzipper": "^0.10.8"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
