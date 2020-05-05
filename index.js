@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const latest = 'https://github.com/mudcrab/react-ts/archive/0.2.0.zip';
+const latest = 'https://github.com/mudcrab/react-ts/archive/0.3.0.zip';
 
 const stream = require('stream');
 const fs = require('fs');
@@ -22,7 +22,7 @@ if (flags.create) {
   pipeline(got.stream(latest), unzipper.Extract({ path: 'unpacked' }))
     .then(() => {
       rmrf(flags.create, () => {
-        fs.renameSync(path.join('unpacked', 'react-ts-0.2.0'), path.join(flags.create));
+        fs.renameSync(path.join('unpacked', 'react-ts-0.3.0'), path.join(flags.create));
         rmrf(path.join('unpacked'), () => {});
       });
     })
