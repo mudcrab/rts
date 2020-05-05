@@ -1,6 +1,6 @@
 {
   "name": "@mudcrab/rts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bootstrap React App",
   "main": "index.js",
   "author": "Jevgeni Sillar <jevgeni@pitfire.io>",
