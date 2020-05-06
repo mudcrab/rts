@@ -16,5 +16,7 @@
     "rimraf": "^3.0.2",
     "unzipper": "^0.10.8"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

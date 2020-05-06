@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const latest = 'https://github.com/mudcrab/react-ts/archive/0.3.0.zip';
+const latest = 'https://github.com/mudcrab/react-ts/archive/0.4.0.zip';
 
 const stream = require('stream');
 const fs = require('fs');
